@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Contact Us - BNC Consultants Limited</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" crossorigin href="/assets/index-C4dIG26t.css"><script type="module" crossorigin src="/assets/index-C7qpW0gw.js"></script></head>
+  <body class="font-sans antialiased bg-background text-foreground flex flex-col min-h-screen">
+    <div id="navbar-container"></div>
+
+    <main class="flex-1 pb-20">
+      <div class="bg-slate-900 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+          <h1 class="font-heading font-bold text-4xl md:text-5xl mb-4">Contact Us</h1>
+          <p class="text-slate-300">We'd love to hear about your project.</p>
+        </div>
+      </div>
+
+      <div class="container mx-auto px-4 mt-12">
+        <div class="grid lg:grid-cols-2 gap-12">
+          <!-- Contact Info -->
+          <div>
+            <h2 class="font-heading font-bold text-2xl mb-8">Get In Touch</h2>
+            <div class="space-y-8">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+                  <i data-lucide="map-pin" class="h-6 w-6 text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg mb-1">Our Office</h3>
+                  <p class="text-muted-foreground">123 Construction Plaza, 4th Floor</p>
+                  <p class="text-muted-foreground">Westlands, Nairobi, Kenya</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+                  <i data-lucide="phone" class="h-6 w-6 text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg mb-1">Phone</h3>
+                  <p class="text-muted-foreground">+254 700 000 000</p>
+                  <p class="text-muted-foreground">+254 722 000 000</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+                  <i data-lucide="mail" class="h-6 w-6 text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg mb-1">Email</h3>
+                  <p class="text-muted-foreground">info@bncconsultants.com</p>
+                  <p class="text-muted-foreground">projects@bncconsultants.com</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+                  <i data-lucide="clock" class="h-6 w-6 text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg mb-1">Office Hours</h3>
+                  <p class="text-muted-foreground">Monday - Friday: 8:00 AM - 5:00 PM</p>
+                  <p class="text-muted-foreground">Saturday: 9:00 AM - 1:00 PM</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="mt-10 h-64 bg-slate-100 rounded-lg border border-slate-200 flex items-center justify-center text-slate-400">
+              <span class="flex items-center gap-2"><i data-lucide="map-pin"></i> Google Maps Integration</span>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="bg-white p-8 rounded-xl shadow-lg border border-slate-100">
+            <h2 class="font-heading font-bold text-2xl mb-6">Send a Message</h2>
+            <form onsubmit="event.preventDefault(); alert('Message sent!');" class="space-y-6">
+              <div class="space-y-2">
+                <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Full Name</label>
+                <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" placeholder="John Doe" />
+              </div>
+              <div class="space-y-2">
+                <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Email Address</label>
+                <input type="email" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" placeholder="john@example.com" />
+              </div>
+              <div class="space-y-2">
+                <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Subject</label>
+                <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" placeholder="Project Inquiry..." />
+              </div>
+              <div class="space-y-2">
+                <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Message</label>
+                <textarea class="flex min-h-[150px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" placeholder="Tell us about your project..."></textarea>
+              </div>
+              <button type="submit" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 font-bold h-12 w-full">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="footer-container"></div>
+    
+  </body>
+</html>
